@@ -1,0 +1,158 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+html body{
+    width: 100%;
+    height: 100%;
+    /*background-image: url(https://plus.unsplash.com/premium_photo-1671156854811-92d6bff8209b?q=80&w=2000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);*/
+    background: linear-gradient(90deg, rgb(36, 18, 53), rgb(82, 94, 150));
+    ;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    
+}
+.containar{
+    width: 100%;
+    height: 100%;
+}
+.navdiv{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 20px;
+    border-bottom: 2px solid white;
+    height: 50px;
+    margin-top: 14px;
+    color: white;
+}
+.nav ul{
+    list-style-type: none;
+    overflow: hidden;
+}
+li a{
+   color: white;
+}
+li{
+    display: inline-block;
+    margin-right: 30px;
+    margin-top: 8px;
+}
+.logo{
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 1px;
+    font-style: italic;
+    margin-left: 55px;
+}
+.main{
+
+    width: 40%;
+    height: auto;
+    margin-left: 70px;
+    margin-top: 7%;
+    color: white;
+}
+span{
+    font-size: 50px;
+    text-shadow: 2px 2px black;
+    color: rgb(61, 158, 126);
+}
+.but{
+    width: 30%;
+    margin-left: 100px;
+    margin-top: 5%;
+}
+.but button{
+    padding: 10px;
+    width: 100%;
+    border-radius: 5px;
+    background-color: rgb(254, 97, 186);
+    border: none;
+    padding: 20px;
+}
+.but a{
+    color: white;
+    font-size: 15px;
+}
+.dropdown{
+    display: none;
+}
+.navdiv .fa-solid{
+    display: none;
+}
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 768px){
+    .logo{
+        font-size: 20px;
+        margin-top: 1px;
+    }
+    li{
+        margin: 0%;
+    }
+    li a{
+        margin-right: 5px;
+        font-size: 10px;
+    }
+    .main{
+        margin-top: 20%;
+        margin-left: 60px;
+        width: 70%;
+        text-align: center;
+    }
+    .but{
+        width: 50%;
+        margin-left: 19%;
+    }
+    
+    .navdiv .fa-solid{
+        display: none;
+       }
+
+    
+}
+@media only screen and (max-width: 450px){
+    .logo{
+        font-size: 20px;
+        margin-top: 1px;
+    }
+    li{
+        margin: 0%;
+    }
+    li a{
+        margin-right: 5px;
+    }
+    .main{
+        margin-top: 20%;
+        margin-left: 60px;
+        width: 70%;
+        text-align: center;
+    }
+    .but{
+        width: 50%;
+        margin-left: 25%;
+    }
+    .container ul{
+        display: none;
+    }
+   .navdiv:hover ul{
+    display: block;
+   }
+   .navdiv .fa-solid{
+    display: flex;
+    cursor: pointer;
+    margin-top: 5px;
+   }
+   
+}
